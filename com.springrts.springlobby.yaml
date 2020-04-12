@@ -77,6 +77,6 @@ modules:
 - name: springlobby
   buildsystem: cmake
   sources:
-  - type: archive
-    url: https://springlobby.springrts.com/dl/stable/springlobby-0.269.tar.bz2
-    sha256: 0feeeecfcf7a3627fd5072036ad20186dd2f759405a0c34045526a4db4cb0fea
+  - type: git
+    url: https://github.com/springlobby/springlobby.git
+    tag: '0.269'
